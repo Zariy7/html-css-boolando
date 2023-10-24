@@ -69,6 +69,7 @@ header{
     padding: 5px;
     position: absolute;
     bottom: 15%;
+    font-size: 100%;
 }
 
 .blackheart{
@@ -79,7 +80,18 @@ header{
     padding: 5px;
     top: 1%;
     right: 0%;
-    font-size: 50px;
+    font-size: 250%;
+}
+
+.susteinability{
+    height: 5%;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+    font-size: 100%;
 }
 
 .blackheart:hover{
@@ -90,6 +102,40 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.show{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.product:hover .hidden{
+    display: block;
+}
+
+.product:hover .show{
+    display: none;
+}
+
+.price-new{
+    color: red;
+}
+
+.price-old{
+    text-decoration: line-through;
+}
+
+.price{
+    font-weight: 200;
+    display: inline;
+}
+
+.product-name{
+    font-weight: bolder;
+    font-size: larger;
 }
 
 /* FOOTER STYLE */
