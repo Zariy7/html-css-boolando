@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* HEADER STYLE */
+
 header{
     height: 50px;
     width: 100%;
@@ -32,3 +34,25 @@ header{
 .list{
     list-style: none;
 }
+
+.image-contain{
+    object-fit: contain;
+    max-width: 100%;
+}
+
+/* MAIN STYLE */
+
+.row{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100% / 3 - 20px);
+}
+
+.container.row{
+    margin-top: 50px;
+    gap: 50px 0px;
+}
+
