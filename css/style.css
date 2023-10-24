@@ -51,8 +51,24 @@ header{
     width: calc(100% / 3 - 20px);
 }
 
+.col-50{
+    width: calc(100% / 2 - 20px);
+}
+
 .container.row{
-    margin-top: 50px;
+    margin: 50px 0px;
     gap: 50px 0px;
 }
 
+/* FOOTER STYLE */
+
+footer{
+    height: 100;
+    background-color: rgb(41, 40, 40);
+}
+
+.footer-container{
+    margin: 50px 0px 50px 0px;
+    color: white;
+    line-height: 2;
+}
